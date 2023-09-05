@@ -100,16 +100,14 @@ let flag = false;
     flag = true;
     score = 0;
     bubbleGen();
-    setTimer(5);
+    setTimer(60);
     hitValue();
-    console.log('inside')
-
-    
+    console.log('inside')    
   }
 
  
      
 bubbleGen();
-setTimer(5);
+setTimer(60);
 hitValue();
 
